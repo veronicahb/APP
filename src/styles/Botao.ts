@@ -32,9 +32,3 @@ export const Mensage = styled.Image`
     width: 48px;
     height: 53px;
 `
-export const Msg = styled.Image`
-    width: 48px;
-    height: 53px;
-    top: 506px;
-    left:283px;
-`
