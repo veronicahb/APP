@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { TouchableOpacity, SafeAreaView, SafeAreaViewBase } from "react-native";
 import { Container, Text } from "../styles/Container";
-import {Botao, Conta, Patinha, Criar, Casa, Vet, Mensagem} from "../styles/Botao"
+import {Botao, Conta, Patinha, Cria, Casa, Vet, Mensage} from "../styles/Botao"
 import {Header, Footer, Linha} from "../styles/ONG";
 
 const ONG:React.FC=()=>{
@@ -40,7 +40,7 @@ const ONG:React.FC=()=>{
                     />
                 </Botao>
                 <Botao onPress={() => {handleNavigation('Criar')}}>
-                    <Criar
+                    <Cria
                         source={
                             require("../../assets/criar.png")      
                         }
@@ -69,7 +69,7 @@ const ONG:React.FC=()=>{
                     />
                 </Botao>
                 <Botao onPress={() => {handleNavigation('Mensagem')}}>
-                    <Mensagem
+                    <Mensage
                         source={
                             require("../../assets/mensagem.png")      
                         }

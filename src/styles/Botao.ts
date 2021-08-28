@@ -14,7 +14,7 @@ export const Patinha = styled.Image`
     height: 41px;
     margin-right: 123px;
 `
-export const Criar = styled.Image`
+export const Cria = styled.Image`
     width: 54px;
     height: 50px;
 `
@@ -28,7 +28,13 @@ export const Vet = styled.Image`
     height: 60px;
     margin-right: 118px;
 `
-export const Mensagem = styled.Image`
+export const Mensage = styled.Image`
     width: 48px;
     height: 53px;
+`
+export const Msg = styled.Image`
+    width: 48px;
+    height: 53px;
+    top: 506px;
+    left:283px;
 `
